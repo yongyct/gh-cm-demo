@@ -5,6 +5,7 @@ datarobot_models:
     target_type: Binary
     settings:
       name: Surgical Dataset Demo GitHub Model 1 [GitHub CI/CD]
+      description: testing 1.1
       target_name: complication
       negative_class_label: '0'
       positive_class_label: '1'
