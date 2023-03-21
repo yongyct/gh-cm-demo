@@ -1,0 +1,25 @@
+- user_provided_deployment_id: datarobot/tommy.yong/deployment-unique-id-1
+  user_provided_model_id: datarobot/tommy.yong/model-unique-id-1
+  prediction_environment_name: "https://datarobot-predictions.orm.datarobot.com"
+  settings:
+    label: "Surgical Dataset Demo Github Model 1 [Github CI/CD]"
+    description: "This is a more detailed description 1.1."
+    importance: LOW  # NOTE: a higher importance value than "LOW" will trigger a review process
+                     # for any operation, such as 'create', 'update', 'delete', etc. So, practically
+                     # the user will need to wait for approval from a reviewer in order to be able
+                     # to apply new changes and merge them to the main branch.
+    association:
+      association_id_column: member_id
+      required_in_pred_request: true
+      #actual_values_column: complication
+      #actuals_dataset_id: 63d0dc375822222598188c01
+    #enable_target_drift: true
+    #enable_feature_drift: true
+    enable_predictions_collection: true
+    enable_challenger_models: true
+    #segment_analysis:
+    #  enabled: true
+    #  attributes:
+    #    - Host-IP
+    #    - Remote-IP
+
