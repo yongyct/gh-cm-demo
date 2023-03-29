@@ -1,9 +1,9 @@
-- user_provided_deployment_id: datarobot/tommy.yong/deployment-unique-id-1
-  user_provided_model_id: datarobot/tommy.yong/model-unique-id-1
+- user_provided_deployment_id: datarobot/tommy.yong/deployment-unique-id-2
+  user_provided_model_id: datarobot/tommy.yong/model-unique-id-2
   prediction_environment_name: "https://datarobot-predictions.orm.datarobot.com"
   settings:
-    label: "Surgical Dataset Demo Github Model 1 [Github CI/CD]"
-    description: "This is a more detailed description 1.1"
+    label: "Surgical Dataset Demo Github Model 2 [Github CI/CD]"
+    description: "This is a more detailed description 2.2"
     importance: LOW  # NOTE: a higher importance value than "LOW" will trigger a review process
                      # for any operation, such as 'create', 'update', 'delete', etc. So, practically
                      # the user will need to wait for approval from a reviewer in order to be able
